@@ -1,2 +1,2 @@
-# garywright
-GIMM 300 Project Repository
+# GIMM-300-Team-Website
+Team Website
