@@ -1,29 +1,117 @@
+html {
+    height: 100%;
+}
 body {
-	background-color: #37474F;
-	font-family: 'Roboto', sans-serif;
+    height: 100%;
 	min-height: 100%;
 	min-width: 100%;
+    margin: 0;
 	padding: 0;
-	margin: 0;
+	background-color: #37474F;
+	background: linear-gradient(0deg, #05abe0 0%,#53cbf1 60%,#87e0fd 100%);
+	font-family: 'Roboto', sans-serif;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
-
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    text-align:left;
+    margin-right:-4px;
+}
 .header {
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#05abe0+0,53cbf1+60,87e0fd+100 */
-	background: #05abe0; /* Old browsers */
-	background: -moz-linear-gradient(45deg, #05abe0 0%, #53cbf1 60%, #87e0fd 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(45deg, #05abe0 0%,#53cbf1 60%,#87e0fd 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(45deg, #05abe0 0%,#53cbf1 60%,#87e0fd 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#05abe0', endColorstr='#87e0fd',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-	
 	color:#FFFFFF;
+	font-family: 'Roboto Slab', sans-serif;
+	text-align: center;
+	margin: 50px 0;
+}
+.logo {
+	width: 100%;
+	max-width: 600px;
 }
 
-.header h1 {
-	font-size: 70px;
+.teamContainer {
 	
 }
 
-.header h2 {
-	font-size: 30px;
+.card {
+	background-color: #FFFFFF;
+	border-radius: 4px;
+	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+}
+
+.teamCard {
+	width: 100%;
+	min-height: 400px;
+	max-width: 400px;
+	margin: 10px auto;
+}
+
+.teamImage {
+	width: 100%;
+	padding: 20px;
+	text-align: center;
+}
+
+.teamImage .imageMask {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	overflow: hidden;
+	margin: 0px auto;
+}
+
+.teamImage img {
+	width: 150px;
+}
+
+.teamName {
+	padding: 0 20px;
+	text-align: center;
+	color: #212121;
+	font-weight: bold;
 	text-transform: uppercase;
+	font-size: 20px;
+}
+
+.teamSectionHeader {
+	width: 100%;
+	font-weight: bold;
+	color: #05abe0;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	text-transform: uppercase;
+}
+
+.teamInfo {
+	padding: 20px;
+	text-align: left;
+	color: #212121;
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+.teamInfo a {
+	text-decoration: underline;
+	color: #05abe0;
+}
+
+.aboutUs {
+	
+}
+
+.aboutCard {
+	margin: 50px 20px 60px;
+	padding: 20px;
+	text-align: left;
+	color: #212121;
+}
+
+.aboutTitle {
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 24px;
 }
