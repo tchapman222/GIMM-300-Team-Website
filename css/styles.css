@@ -104,13 +104,30 @@ body {
 	line-height: 1.5;
 }
 
-.teamInfo a {
+.teamInfo a, .profileLinks a {
 	text-decoration: underline;
 	color: #05abe0;
 }
 
+.aboutButton {
+	display: inline-block;
+	margin: 0 auto;
+	background-color: #05abe0;
+	color: #FFFFFF !important;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+    border-radius: 2px;
+    padding: 15px;
+	text-align: center;
+	line-height: 1;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none !important;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+
 .aboutUs {
-	
+
 }
 
 .aboutCard {
@@ -126,4 +143,66 @@ body {
 	font-weight: bold;
 	text-transform: uppercase;
 	font-size: 24px;
+}
+
+.navCol {
+	padding: 10px;
+}
+
+nav.navbar {
+	font-family: 'Roboto', sans-serif;
+}
+
+nav.navbar a {
+	text-decoration: none;
+}
+
+li.active {
+	font-weight: bold;
+}
+
+/***********************************
+* Individual pages
+***********************************/
+
+.profileRow {
+    margin-bottom: 50px;
+}
+
+.profileCol {
+	padding: 5px;
+}
+
+.profilePhotoCol {
+	text-align: center;
+	color: #FFFFFF;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	font-size: 26px;
+	line-height: 1;
+}
+
+.profilePhotoMask {
+	width: 100%;
+	max-width: 200px;
+	border-radius: 50%;
+	overflow: hidden;
+	margin: 0px auto;
+	box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.4);
+}
+
+.profilePhotoMask img {
+	width: 100%;
+}
+
+.profileBio, .profileSkills, .profileLinks {
+    margin: 5px;
+	padding: 20px;
+	color: #212121;
+}
+
+.profileTitle {
+	display: block;
+	font-size: 24px;
+	font-weight: bold;
 }
