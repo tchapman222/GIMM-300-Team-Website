@@ -206,3 +206,10 @@ li.active {
 	font-size: 24px;
 	font-weight: bold;
 }
+
+.gameCard {
+	padding: 20px;
+	text-align: center;
+	color: #aaaaaa;
+	font-size: 20px;
+}
